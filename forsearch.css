@@ -1,0 +1,128 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@700&family=Belanosima:wght@600&family=Dancing+Script:wght@700&family=Fraunces:wght@400;700&family=Freehand&family=Lobster&family=Merriweather:ital,wght@0,700;1,400;1,900&family=Montserrat:wght@400;500;600&family=Outfit:wght@200;400;700&family=Playfair+Display:wght@600&family=Playfair:wght@600&family=Raleway:wght@400;500&family=Roboto+Condensed:ital,wght@0,400;1,700&family=Roboto+Slab&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url("https://64.media.tumblr.com/a73f1371b81085a8328848fc1b946e8e/603798b75499dcc9-74/s640x960/b3abd05c5c63ae4d0d4ea3b6c953747015372620.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Merriweather', serif;
+}
+
+.search {
+    
+
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(4rem);
+    padding: 2rem;
+    border-radius: 3rem;
+}
+
+.element {
+    background-color: red;
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    background-color: white;
+    border: none;
+    border-radius: 2rem;
+
+
+}
+
+input[type="text"],
+button {
+    height: 2.5rem;
+    border: none;
+    outline: none;
+    padding: 0.2rem;
+    border-radius: 2rem;
+    font-size: 0.8rem;
+    
+
+}
+
+button {
+    color: white;
+    background-color: blue;
+    width: 4.7rem;
+}
+
+button:hover {
+    color: black;
+    background-color: rgb(113, 113, 228);
+    cursor: pointer;
+    font-weight: 700;
+}
+
+::placeholder {
+    font-weight: 700;
+}
+
+h1 {
+    
+    color: rgb(232, 246, 44);
+    text-align: center;
+    margin: 2rem;
+    width: 100%;
+    font-size: 3rem;
+}
+
+input[type="text"] {
+    padding-left: 1rem;
+}
+img{
+    display: none;
+    width:90%;
+    height: 50%;
+}
+#info
+{
+    
+    color: white;
+    margin: 1.5rem;
+    font-size: 2.5rem;
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#info p{
+    padding: 0.5rem;
+    text-align: center;
+}
+.msg,.result
+{
+    color: red;
+    font-size: 1.5rem;
+    background-color: white;
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem;
+    font-weight: 700;
+    text-align: center;
+    display: none;
+    margin: 1rem;
+}

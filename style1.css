@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Agdasima:wght@700&family=Belanosima:wght@600&family=Fraunces:wght@400;700&family=Montserrat:wght@400;500;600&family=Outfit:wght@200;400;700&family=Playfair:wght@600&family=Raleway:wght@400;500&family=Roboto+Slab&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  flex-direction: column;
+  font-family: "Raleway", sans-serif;
+  
+}
+#head{
+  width: 90%;
+  background:linear-gradient(to bottom right,#f070e5,#f3c212);
+  font-size: 3.5rem;
+  margin: 1.5rem auto;
+  border-radius: 3rem;
+  text-align: center;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  color:black;
+}
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+img {
+  height: 80%;
+  width: 80%;
+}
+img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  filter: drop-shadow(2px 1px 35px rgb(73, 73, 120));
+}
+.p {
+  margin: 0.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  position: relative;
+  border-radius: 2.5rem;
+}
+.p:nth-child(odd) {
+  background: linear-gradient(
+    rgb(132, 204, 237),
+    rgb(139, 235, 230),
+    rgb(229, 229, 134),
+    rgb(244, 142, 159)
+  );
+}
+.p:nth-child(even) {
+  background: linear-gradient(
+    to top,
+    rgb(112, 129, 208),
+    rgb(157, 212, 117),
+    rgb(210, 208, 111)
+  );
+}
+h1 {
+  color: #18020C;
+  font-size: 3rem;
+  
+}
+.hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.show {
+  width: 6.5rem;
+  height: 3.5rem;
+  border-radius: 1.5rem;
+  border: none;
+  outline: none;
+  background-color: rgb(247, 162, 3);
+  font-size: 1rem;
+  color: black;
+  margin: 1rem;
+  font-weight: 700;
+  padding: 0.2rem;
+}
+.show:hover{
+    background-color: #7dee12;
+    color: black;
+    cursor: pointer;
+}
+.info{
+    display: none;
+
+}
+.info p{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #49306B;
+    margin-bottom: 0.5rem;
+    word-spacing: 0.2rem;
+}
